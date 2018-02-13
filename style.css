@@ -1,0 +1,305 @@
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+     /*font-family: ;*/
+}
+button{
+  background-color: white;
+  margin-left: 30%;
+  border-radius: 5px;
+  height:30px;
+  margin-top: .5%;
+}
+
+header{
+  height: 500px;
+  width: 100%;
+  background-color: gray;
+  clear: both;
+  color: white;
+  font-weight: bold;
+}
+header h1{
+  font-size: 5rem;
+  padding-top: 7%;
+}
+header h3{
+  font-size: 2rem;
+  font-weight: lighter;
+  padding-top: 3%;
+}
+header p{
+  font-size: 1.8rem;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+header h1, header h3, header p{
+  text-align: center;
+}
+header h6 a, header h3 a{
+  color: white;
+  text-decoration: none;
+}
+html{
+  font-size: 10px;
+}
+h2 + p, h3 + p{
+  padding-left: 29%;
+  padding-right: 29%;
+  font-size: 1.6rem;
+}
+h6 a{
+  float: left;
+  margin: 2% 0 0 5%;
+  font-size: 1.2rem;
+}
+img{
+  filter: grayscale(100%);
+}
+footer{
+  clear: both;
+  height:165px;
+  width:100%;
+  background-color: black;
+}
+
+.contribute h6, .siteMap h6{
+  color: gray;
+  padding-left: 4%;
+  margin-top: -1%;
+  margin-left: 12%;
+  margin-bottom: -3%;
+  font-size: 1rem;
+}
+.contribute ul li a, .siteMap ul li a, .social ul li a{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.darkRect, img{
+  height:160px;
+  width:60%;
+  background-color: gray;
+  margin-left: 20%;
+
+}
+.darkRect + h3{
+  padding-left: 40%;
+}
+.donButton{
+  height:30px;
+  width:5%;
+  background-color: white;
+  color: gray;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-top: 2%;
+}
+.info{
+  height:120px;
+  width: 20%;
+  color: white;
+  /*border: 1px solid white;*/
+  float: left;
+  margin: 1% 1% 1% 57.5%;
+}
+.info a{
+  color: white;
+  text-decoration: none;
+}
+.info h6{
+    font-size: 1rem;
+    margin-top: 1%;
+}
+.info h6, .info p{
+  padding-left: 35%;
+}
+.leftMid, .rightMid{
+  width:40%;
+  height:300px;
+  float: left;
+  margin-left: 8%;
+  margin-top: 10%;
+  /*border: 1px solid red*/
+}
+.leftMid
+.lgLogo{
+  height: 30px;
+  width:5%;
+  background-image: url("lvlogo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  float:left;
+  margin-left: 31%;
+  margin-top: 1.3%;
+}
+.midButtons{
+  height:30px;
+  width:20%;
+  background: transparent;
+  border: 1px solid gray;
+  font-size: 1.1rem;
+  margin-left: 40%;
+}
+.midButtons a{
+  color: gray;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section.darkRect + h3 + p{
+  height:100px;
+  width:85%;
+  margin-left: 15%;
+  padding-left: 15%;
+  text-align: center;
+  font-size: 1.2rem;
+  /*border: 1px solid black;*/
+}
+section.footerLeft{
+  height:120px;
+  width: 20%;
+  /*border: 1px solid white;*/
+  float: left;
+  margin:1% 0 1% 1%;
+}
+
+.siteMap ul li, .contribute ul li{
+  list-style: none;
+  display: inline-block;
+}
+
+.social ul li{
+  list-style: none;
+  display: inline-block;
+  padding-right: 8%;
+}
+
+.visit{
+  background-color: #F5F5F5;
+}
+.visit, .volunteer{
+  height:560px;
+  width: 100%;
+  float:left;
+}
+.volButton{
+  height:30px;
+  width:10%;
+  background: transparent;
+  border: 1px solid gray;
+  font-size: 1.1rem;
+}
+.volunteer button{
+  margin-left: 48%;
+}
+.volunteer h3, .why h2{
+  font-size: 3rem;
+  padding-top: 3%;
+}
+.volunteer h3, .why h2, h2 + p{
+  text-align: center;
+
+}
+.why{
+  height:240px;
+  width: 100%;
+  float: left;
+}
+
+
+/* ========== Media Query For Mobile =========*/
+
+@media  only screen and (max-width:736px){
+
+*{
+  width: 100%;
+}
+.darkRect{
+  width:100%;
+  margin: 0;
+  margin-left: -5%;
+}
+.darkRect + h3{
+  font-size: 1.8rem;
+  margin-left: -29%;
+  text-align: center;
+
+}
+.donButton{
+  width:20%;
+  /*margin-top:-10%;*/
+  margin-left:41%;
+  border: .5px solid orange;
+}
+section.footerLeft{
+  height:130px;
+  width:60%;
+  margin-top: 10%;
+  /*border: 1px solid orange;*/
+}
+.info{
+  width: 40%;
+  margin-top: -26.5%;
+}
+.info h6, .info p{
+  padding-right: 15%;
+  margin-top: -15px;
+}
+.lgLogo{
+  height:60px;
+  width:25%;
+  margin-left: 45%;
+}
+.midButtons{
+  height:30px;
+  width:50%;
+  background: transparent;
+  border: 1px solid gray;
+  font-size: 1.1rem;
+  margin-left: 10%;
+  margin-top: 50%;
+}
+.rightMid .darkRect + h3 + p, .leftMid .darkRect + h3 + p{
+  margin-left: -10%;
+}
+
+.visit{
+  height:600px;
+}
+.volButton{
+  width: 25%;
+}
+.volunteer button{
+  margin-left: 37%;
+}
+
+footer{
+  height:200px;
+}
+header{
+  height:600px;
+}
+header, footer, .why, .visit, .volunteer{
+  border: 2px solid orange;
+  border-radius: 8px;
+}
+header h1{
+  font-size: 3rem;
+}
+h2 + p, h3 + p{
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-left: -5%;
+  font-size: 1.2rem;
+  text-align: left;
+}
+h6 a{
+  font-size: 1.6rem;
+
+}
+
+}
