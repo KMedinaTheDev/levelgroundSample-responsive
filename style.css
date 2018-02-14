@@ -17,8 +17,13 @@ header{
   width: 100%;
   background-color: gray;
   clear: both;
-  color: white;
   font-weight: bold;
+  background: url("images/gloves.jpg");
+  background-size: cover;
+  filter: grayscale(40%);
+  background-position: left;
+  color: rgb(244, 120, 18);
+
 }
 header h1{
   font-size: 5rem;
@@ -33,12 +38,13 @@ header p{
   font-size: 1.8rem;
   padding-left: 15%;
   padding-right: 15%;
+  font-weight: 900;
 }
 header h1, header h3, header p{
   text-align: center;
 }
 header h6 a, header h3 a{
-  color: white;
+  color: rgb(244, 120, 18);
   text-decoration: none;
 }
 html{
@@ -52,7 +58,7 @@ h2 + p, h3 + p{
 h6 a{
   float: left;
   margin: 2% 0 0 5%;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 img{
   filter: grayscale(100%);
@@ -92,7 +98,7 @@ footer{
   height:30px;
   width:5%;
   background-color: white;
-  color: gray;
+  color: rgb(244, 120, 18);
   border-radius: 5px;
   font-size: 1.1rem;
   font-weight: bold;
